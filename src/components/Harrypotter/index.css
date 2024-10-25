@@ -1,0 +1,45 @@
+.container {
+    text-align: center; /* Center align the text */
+    margin: 20px; /* Add some margin around the container */
+  }
+  
+  h1 {
+    font-size: 2.5rem; /* Adjust font size */
+    margin-bottom: 10px; /* Space below the heading */
+  }
+  
+  p {
+    font-size: 1.2rem; /* Adjust font size for paragraph */
+    margin-bottom: 20px; /* Space below the paragraph */
+  }
+  
+  .search-input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 300px; /* Fixed width for input */
+  }
+  
+  .character-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of character cards */
+    justify-content: center; /* Center the character cards */
+  }
+  
+  .character-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center; /* Center text within each character card */
+    width: 150px; /* Fixed width for character cards */
+  }
+  
+  .character-card img {
+    width: 100px; /* Fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below the image */
+  }
+  
